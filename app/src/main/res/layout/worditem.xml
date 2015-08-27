@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+     >
+    
+    <TextView 
+        android:id="@+id/wordIndex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:text="101.  "
+        android:layout_marginLeft="5dp"
+        />
+	<TextView 
+	    android:id="@+id/wordTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/wordIndex"
+         android:textSize="16sp"
+        android:text="Hello"
+         android:layout_marginLeft="10dp"
+        />
+	<TextView 
+	    android:id="@+id/wordCat"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/wordTxt"
+        android:textSize="13sp"
+        android:text="cet4"
+         android:layout_marginLeft="20dp"
+	    />
+	<TextView 
+	    android:id="@+id/Wdetail"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#cccccc"
+        android:layout_alignParentRight="true"
+        android:textSize="15sp"
+        android:text="查看详细"
+        android:layout_marginRight="10dp"
+	    />
+</RelativeLayout>

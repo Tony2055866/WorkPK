@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical" >
+    
+     <CheckBox
+            android:id="@+id/isbgSoundCb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:button="@null"
+            android:paddingLeft="5dp"
+            android:checked="true"
+            android:drawableLeft="@drawable/checkbox_bg"
+            android:paddingTop="4dp"
+            android:text="背景音乐"
+            android:textSize="14sp" />
+      <CheckBox
+            android:id="@+id/isSoundCba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:button="@null"
+             android:layout_marginLeft="20dp"
+            android:paddingLeft="5dp"
+            android:checked="true"
+           android:layout_below="@id/isbgSoundCb"
+            android:drawableLeft="@drawable/checkbox_bg"
+            android:paddingTop="10dp"
+            android:text="游戏音效"
+            android:textSize="14sp" />
+       <CheckBox
+            android:id="@+id/issavecb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:button="@null"
+             android:layout_marginLeft="20dp"
+            android:paddingLeft="5dp"
+            android:checked="true"
+            android:layout_below="@id/isSoundCba"
+           
+            android:drawableLeft="@drawable/checkbox_bg"
+            android:paddingTop="10dp"
+            android:text="自动登录"
+            android:textSize="14sp" />
+	 
+	<TextView android:id="@+id/eetv"
+	    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:text="邮 箱:"
+   android:layout_below="@id/issavecb"
+	    />
+	
+
+	<EditText 
+	     android:textSize="17sp"
+	     android:hint="输入新的邮箱(*)"
+	     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/issavecb"
+    android:inputType="text"
+    android:layout_toRightOf="@id/eetv"
+	    />
+	<TextView android:id="@+id/schoolTV"
+	    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:text="学校:"
+   android:layout_below="@id/eetv"
+	    />
+
+	<EditText
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/eetv"
+	    android:layout_toRightOf="@id/schoolTV"
+	    android:inputType="text" />
+	 
+</RelativeLayout>

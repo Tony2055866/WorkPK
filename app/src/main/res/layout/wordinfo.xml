@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/infolist"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:padding="5dp"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/wordTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:onClick="wordSoundPlay"
+            android:src="@drawable/sound" />
+       
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/wordMeanTV"
+        android:layout_width="fill_parent"  android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:textColor="#ffffff" />
+    
+      <TextView
+        android:id="@+id/wordenMean"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+         android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/sentensLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+        
+        <ImageView android:id="@+id/sound2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:paddingTop="10dp"
+            android:onClick="playeSentensSound"
+            android:src="@drawable/sound" />
+        <TextView
+            android:textSize="18sp"
+            android:layout_alignRight="@id/sound2"
+            android:id="@+id/wordSentenceTV"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:paddingRight="30dp"
+            android:layout_alignParentTop="true"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/wordSentenceMean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/sentensImg"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="3dp"
+         />
+
+    <TextView
+        android:id="@+id/wordMean_etyma"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+         android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/wordOtherM"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+         android:textSize="18sp" />
+
+</LinearLayout>

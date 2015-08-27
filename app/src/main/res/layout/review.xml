@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabsLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent" >
+    <!--     android:background="#B0C4DE"
+ -->
+    <RelativeLayout
+        android:id="@+id/enLayout"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout android:id="@+id/enll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:orientation="horizontal" >
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="loadDataUp"
+                android:text="上一页" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="loadDataDown"
+                android:text="下一页" />
+        </LinearLayout>
+        
+          <ListView
+            android:id="@+id/enList"
+            android:layout_above="@id/enll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ListView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/zhLayout"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout android:id="@+id/enll2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:orientation="horizontal" >
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="loadDataUp"
+                android:text="上一页" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="loadDataDown"
+                android:text="下一页" />
+        </LinearLayout>
+        <ListView
+        android:id="@+id/zhList"
+        android:layout_above="@id/enll2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
+        
+        
+    </RelativeLayout>
+</TabHost>

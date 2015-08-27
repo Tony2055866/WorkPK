@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WelcomeActivity!</string>
+    <string name="app_name">单词PK王</string>
+	<string name="username">用户名</string>
+	<string name="password"> 密 码 </string>
+	<string name="repassword">密码确认</string>
+	<string name="email"> 邮 箱 </string>
+	<string name="register">确认注册</string>
+</resources>

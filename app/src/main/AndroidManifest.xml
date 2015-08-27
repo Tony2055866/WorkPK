@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ncut.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk android:minSdkVersion="8" />
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/app_icon" >
+        <activity
+            android:name="com.ncut.activity.WelcomeActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.ncut.activity.LoginActivity"></activity>
+        
+        <activity android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.ncut.activity.RegisterActivity"></activity>
+        
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.ncut.activity.StadiumActivity"></activity>
+        
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.ncut.activity.SingleGame"></activity>
+        
+         <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.ncut.activity.NoNetActivity"></activity>
+         
+          <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.ncut.activity.GameActivity"></activity>
+          
+           <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.ncut.activity.Review"></activity>
+           <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.ncut.activity.WordActivity"></activity>
+          
+    </application>
+	<uses-permission android:name="android.permission.INTERNET" />
+
+	<uses-permission android:name="android.permission.RUN_INSTRUMENTATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>  
+
+	
+</manifest>

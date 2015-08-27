@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bglearn02"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="7" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+        	<RelativeLayout style="@style/cateButn" android:id="@+id/catLL0">
+			<ImageView style="@style/triangleImg" />
+			<TextView style="@style/cateText" android:text="高   考   词   汇" />
+			</RelativeLayout>
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn0" android:text="新手场(10单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn1" android:text="普通场(15单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn2" android:text="高手场(20单词 )"  />
+			
+			<RelativeLayout style="@style/cateButn" android:id="@+id/catLL1">
+				<ImageView style="@style/triangleImg" />
+				<TextView style="@style/cateText" android:text="英   语   四   级" />
+			</RelativeLayout>
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn3" android:text="新手场(10单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn4" android:text="普通场(15单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn5" android:text="高手场(20单词 )"  />
+			
+			<RelativeLayout style="@style/cateButn" android:id="@+id/catLL2">
+				<ImageView style="@style/triangleImg" />
+				<TextView style="@style/cateText" android:text="英   语   六   级" />
+			</RelativeLayout>
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn6" android:text="新手场(10单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn7" android:text="普通场(15单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn8" android:text="高手场(20单词 )"  />
+			
+			<RelativeLayout style="@style/cateButn" android:id="@+id/catLL3">
+				<ImageView style="@style/triangleImg" />
+				<TextView style="@style/cateText" android:text="四   级   高   频" />
+			</RelativeLayout>
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn9" android:text="新手场(10单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn10" android:text="普通场(15单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn11" android:text="高手场(20单词 )"  />
+			
+			<RelativeLayout style="@style/cateButn" android:id="@+id/catLL4">
+				<ImageView style="@style/triangleImg" />
+				<TextView style="@style/cateText" android:text="高   考   高   分" />
+			</RelativeLayout>
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn12" android:text="新手场(10单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn13" android:text="普通场(15单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn14" android:text="高手场(20单词 )"  />
+			
+			<RelativeLayout style="@style/cateButn" android:id="@+id/catLL5">
+				<ImageView style="@style/triangleImg" />
+				<TextView style="@style/cateText" android:text="考   研   词   汇" />
+			</RelativeLayout>
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn15" android:text="新手场(10单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn16" android:text="普通场(15单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn17" android:text="高手场(20单词 )"  />
+			
+			<RelativeLayout style="@style/cateButn" android:id="@+id/catLL6">
+				<ImageView style="@style/triangleImg" />
+				<TextView style="@style/cateText" android:text="托   福   词   汇" />
+			</RelativeLayout>
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn18" android:text="新手场(10单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn19" android:text="普通场(15单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn20" android:text="高手场(20单词 )"  />
+			
+			<RelativeLayout style="@style/cateButn" android:id="@+id/catLL7">
+				<ImageView style="@style/triangleImg" />
+				<TextView style="@style/cateText" android:text="雅   思   核   心" />
+			</RelativeLayout>
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn21" android:text="新手场(10单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn22" android:text="普通场(15单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn23" android:text="高手场(20单词 )"  />
+			
+			<RelativeLayout style="@style/cateButn" android:id="@+id/catLL8">
+				<ImageView style="@style/triangleImg" />
+				<TextView style="@style/cateText" android:text="专   业   四   级" />
+			</RelativeLayout>
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn24" android:text="新手场(10单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn25" android:text="普通场(15单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn26" android:text="高手场(20单词 )"  />
+			
+			<RelativeLayout style="@style/cateButn" android:id="@+id/catLL9">
+				<ImageView style="@style/triangleImg" />
+				<TextView style="@style/cateText" android:text="词   组   专   场" />
+			</RelativeLayout>
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn27" android:text="新手场(10单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn28" android:text="普通场(15单词 )" />
+			<Button style="@style/stadiumButton" android:id="@+id/sta_btn29" android:text="高手场(20单词 )"  />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/login_button_select"
+            android:onClick="showMyinfo"
+            android:text="账号" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/login_button_select"
+            android:onClick="review"
+            android:text="复习" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/login_button_select"
+            android:onClick="setup"
+            android:text="设置" />
+    </LinearLayout>
+
+</LinearLayout>
